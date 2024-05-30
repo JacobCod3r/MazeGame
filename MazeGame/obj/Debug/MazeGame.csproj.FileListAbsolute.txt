@@ -1,0 +1,7 @@
+C:\Users\jakma\Documents\GitHub\MazeGame\MazeGame\bin\Debug\MazeGame.exe.config
+C:\Users\jakma\Documents\GitHub\MazeGame\MazeGame\bin\Debug\MazeGame.exe
+C:\Users\jakma\Documents\GitHub\MazeGame\MazeGame\bin\Debug\MazeGame.pdb
+C:\Users\jakma\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.csproj.AssemblyReference.cache
+C:\Users\jakma\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.csproj.CoreCompileInputs.cache
+C:\Users\jakma\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.exe
+C:\Users\jakma\Documents\GitHub\MazeGame\MazeGame\obj\Debug\MazeGame.pdb
