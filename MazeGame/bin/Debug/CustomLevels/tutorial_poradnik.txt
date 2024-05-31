@@ -1,0 +1,18 @@
+ENG
+If you want to add custom level, firstly add new .txt file with name 'level1.txt'*, then insert to it map (look EXAMPLE.txt). It's created with ' ', '█' and 'X'. 
+' ' is blank space for character to move.
+'█' is a wall - player can't cross it.
+'X' is starting position of the player. 
+How to make player win? Just make a hole in the outside wall of the cube and replace it with ' ' - without blank space it won't work.
+
+*To make player able to open such level, you have to name it 'level1.txt', or 'level2.txt' and so on (levels open one by another).
+
+
+PL
+Jeżeli chcesz stworzyć niestandardowy poziom stwórz nowy plik .txt z nazwą 'level1.txt'*, później wprowadź do tego pliku mapę (patrz EXAMPLE.txt). Tworzy się go za pomocą ' ', '█' oraz 'X'.
+' ' to puste miejsce po którym może się poruszać postać.
+'█' to jest ściana - gracz nie może przez nią przejść.
+'X' to jest miejsce w którym zaczyna gracz.
+Jak zrobić wygraną? Po prostu zrób dziurę w zewnętrznej ścianie kostki i zastąp ją ' ' - bez pustego miejsca to nie zadziała.
+
+*Żeby gracz mógł otworzyć dany poziom, musisz go nazwać 'level1.txt', albo 'level2.txt' i tak dalej (poziomy otwierają się jeden po drugim).
