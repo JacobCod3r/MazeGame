@@ -85,6 +85,7 @@ namespace MazeGame
             Console.WriteLine(" ____   ____      ___      __________  _______\r\n|    \\_/    |    /   \\    |______   _||   ____|\r\n|  |\\   /|  |   /  _  \\        _/ _/  |  |____\r\n|  | \\_/ |  |  /  /_\\  \\     _/ _/    |   ____|\r\n|  |     |  | /   ___   \\  _/  /_____ |  |____\r\n|__|     |__|/___/   \\___\\|__________||_______|  \r\n  _______        ___      ____   ____  _______\r\n /  _____\\      /   \\    |    \\_/    ||   ____|\r\n|  /  _____    /  _  \\   |  |\\   /|  ||  |____\r\n|  | |_   _|  /  /_\\  \\  |  | \\_/ |  ||   ____|\r\n \\  \\_/  /   /   ___   \\ |  |     |  ||  |____\r\n  \\_____/   /___/   \\___\\|__|     |__||_______|  \r\n\r\n Press right arrow or D to open in-game levels\r\n  Press left arrow or A to open custom levels");
 
             bool choose = true;
+            bool checkForMaps = false;
 
             while (true)
             {
@@ -133,6 +134,7 @@ namespace MazeGame
                 {
                     using (var reader = new StreamReader(folderName + "/level" + currentLevel + ".txt"))
                     {
+                        checkForMaps = true;
                         var lines = new List<string>();
 
                         while (!reader.EndOfStream)
@@ -222,7 +224,25 @@ namespace MazeGame
 
                     }
                 }
-                catch {
+                catch
+                {
+                    Console.Clear();
+                    if (checkForMaps)
+                    {
+                        if (choose)
+                        {
+                            Console.WriteLine("Congratulations!\nYou have completed all the main levels!\nPress ENTER to leave.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("You have completed all custom levels!\nPress ENTER to leave.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Couldn't find any levels here! Maybe create your own?\nCheck MazeGame\\bin\\Debug\\CustomLevels\nPress ENTER to leave.");
+                    }
+                    Console.ReadLine();
                     break;
                 }
             }
