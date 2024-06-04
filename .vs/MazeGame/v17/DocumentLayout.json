@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jakma\\Documents\\GitHub\\MazeGame\\",
+  "WorkspaceRootPath": "D:\\Github\\MazeGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{703D0A40-B5EA-481D-93B1-F3F256BCE557}|MazeGame\\MazeGame.csproj|c:\\users\\jakma\\documents\\github\\mazegame\\mazegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{703D0A40-B5EA-481D-93B1-F3F256BCE557}|MazeGame\\MazeGame.csproj|solutionrelative:mazegame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github\\MazeGame\\MazeGame\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MazeGame\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jakma\\Documents\\GitHub\\MazeGame\\MazeGame\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\MazeGame\\MazeGame\\Program.cs",
               "RelativeDocumentMoniker": "MazeGame\\Program.cs",
-              "ToolTip": "C:\\Users\\jakma\\Documents\\GitHub\\MazeGame\\MazeGame\\Program.cs",
+              "ToolTip": "D:\\Github\\MazeGame\\MazeGame\\Program.cs",
               "RelativeToolTip": "MazeGame\\Program.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAqwFIAAAAeAAAA",
+              "ViewState": "AQIAAN8AAAAAAAAAAAAAwLcAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T10:08:05.855Z",
               "EditorCaption": ""

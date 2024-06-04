@@ -86,6 +86,7 @@ namespace MazeGame
 
             bool choose = true;
             bool checkForMaps = false;
+            bool isThereX = false;
 
             while (true)
             {
@@ -170,6 +171,7 @@ namespace MazeGame
                                     coords[0] = i;
                                     coords[1] = j;
                                     tablicaDwuWymiarowa[i, j] = ' ';
+                                    isThereX = true;
                                 }
                             }
                             Console.WriteLine();
@@ -177,6 +179,14 @@ namespace MazeGame
 
                         while (true)
                         {
+                            if (!isThereX)
+                            {
+                                Console.Clear();
+                                Console.WriteLine("Map doesn't have 'X' that makes it impossible to complete.\nPress ENTER to play next level.");
+                                changeLevel = true;
+                                Console.ReadLine();
+                                break;
+                            }
                             ConsoleKeyInfo keyInfo = Console.ReadKey();
                             if (keyInfo.Key == ConsoleKey.UpArrow)
                             {
